@@ -1,0 +1,7 @@
+﻿/url=https://archiveofourown.org/downloads/27213442/Proper%20Introductions.html?updated_at=1687121756
+/baseDirectory=C:\sandbox\Epub\Engie_Ivy
+/includeChapterNumber=false
+/title=Proper Introductions
+/author=Engie_Ivy
+/method=MultiVoice
+/lastChapter=false
