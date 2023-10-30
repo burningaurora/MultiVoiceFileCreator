@@ -46,11 +46,16 @@ namespace MultiVoiceFileCreator
         /// </summary>
         public void Execute()
         {
+            // Make sure the directory we're writing to exists
+            if (!Directory.Exists(Parms.OutputDirectory))
+                Directory.CreateDirectory(Parms.OutputDirectory);
+
             // Get the characters to populate the tags
             DeriveCharacters();
 
             var bookNLPQuotes = File.ReadAllLines(Parms.QuotesFileName);
             var quotes = bookNLPQuotes.Skip(1).Take(bookNLPQuotes.Length - 1).Select(f => new Quote(f, Characters)).ToList();
+            var batchedQuotes = quotes.GroupBy(f => f.Name).Select(f => f.Key).ToList().ToDictionary(f => f, f => new List<string>());
             var taggedParagraphs = new List<string>();
             var insertIntro = true;
             var previousWasQuote = false;
@@ -95,6 +100,7 @@ namespace MultiVoiceFileCreator
                             taggedParagraphs.Add(line);
 
                             // Pop line and quote from lists
+                            batchedQuotes[quote.Name].Add(line);
                             quotes.RemoveAt(0);
                             applicableQuotes.RemoveAt(0);
                         }
@@ -112,7 +118,7 @@ namespace MultiVoiceFileCreator
                 }
                 else
                 {
-                    if (paragraph.Contains("~~~"))
+                    if (paragraph.Contains("~~~") || paragraph.Contains(":white_circle:"))
                         taggedParagraphs.VoiceSplit2000();
                     else
                     {
@@ -130,8 +136,12 @@ namespace MultiVoiceFileCreator
             taggedParagraphs.VoiceSplit2500();
 
             var finalParagraphs = new List<string>();
-            taggedParagraphs.ForEach(f => finalParagraphs.Add(f.DictionaryReplacer(Constants.Method.MultiVoice).AddPTags()));
-            File.WriteAllText(Parms.HTMLFileName, string.Join("\r\n", finalParagraphs));
+            taggedParagraphs.ForEach(f => finalParagraphs.Add(f.DictionaryReplacer(Parms.Method).AddPTags()));
+
+            if (Parms.Method == Constants.Method.MultiVoice)
+                File.WriteAllText(Parms.HTMLFileName, string.Join("\r\n", finalParagraphs));
+            else if (Parms.Method == Constants.Method.Lines)
+                GenerateCharacterFiles(batchedQuotes);
         }
 
         #endregion
@@ -156,6 +166,16 @@ namespace MultiVoiceFileCreator
                 if (!string.IsNullOrWhiteSpace(name))
                     Characters.Add(character.id, name);
             }
+        }
+
+        /// <summary>
+        /// Writes out each characters lines
+        /// </summary>
+        /// <param name="quotes"></param>
+        private void GenerateCharacterFiles(Dictionary<string, List<string>> quotes)
+        {
+            foreach (var quote in quotes)
+                File.WriteAllText($"{Parms.HTMLFileName}_{quote.Key}.txt", string.Join("\r\n", quote.Value));
         }
 
         #endregion

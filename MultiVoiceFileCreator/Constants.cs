@@ -7,6 +7,7 @@
     public enum Method
     {
         MultiVoice,
+        Lines,
         Edge,
         SingleVoice,
         BookNLP

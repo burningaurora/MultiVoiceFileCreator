@@ -177,7 +177,7 @@ namespace MultiVoiceFileCreator
             var paragraphs = html.Split("|||").ToList();
             var finalParagraphs = new List<string>();
 
-            if (Parms.Method == Method.MultiVoice)
+            if (Parms.Method == Method.MultiVoice || Parms.Method == Method.Lines)
             {
                 var tagger = new MultiVoiceTagger(Parms, paragraphs.ToList());
                 tagger.Execute();

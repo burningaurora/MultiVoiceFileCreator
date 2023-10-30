@@ -36,7 +36,7 @@ namespace MultiVoiceFileCreator
                 args.Where(f => f.StartsWithString("/author=")).FirstOrDefault()?.Replace("/author=", string.Empty),
                 args.Where(f => f.StartsWithString("/chapter=")).FirstOrDefault()?.Replace("/chapter=", string.Empty),
                 args.Where(f => f.StartsWithString("/lastChapter=")).FirstOrDefault()?.Replace("/lastChapter=", string.Empty),
-                args.Where(f => f.StartsWithString("/method=")).FirstOrDefault()?.Replace("/method=", string.Empty) ?? nameof(Method.MultiVoice));
+                args.Where(f => f.StartsWithString("/method=")).FirstOrDefault()?.Replace("/method=", string.Empty) ?? nameof(Method.Lines));
         }
 
         #endregion

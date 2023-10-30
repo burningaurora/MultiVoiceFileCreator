@@ -3,5 +3,5 @@
 /includeChapterNumber=false
 /title=Proper Introductions
 /author=Engie_Ivy
-/method=MultiVoice
+/method=Lines
 /lastChapter=false
