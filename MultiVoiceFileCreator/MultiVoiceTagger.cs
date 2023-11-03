@@ -67,9 +67,12 @@ namespace MultiVoiceFileCreator
                     taggedParagraphs.VoiceSplitNarrator();
                     if (!Parms.Chapter.HasValue || paragraph.Contains("Chapter 1") || paragraph.Contains("Chapter One"))
                     {
-                        taggedParagraphs.Add(Parms.Intro);
-                        taggedParagraphs.VoiceSplit1500();
-                        taggedParagraphs.VoiceSplitNarrator();
+                        if (!Parms.Chapter.HasValue || Parms.Chapter.Value == 1)
+                        {
+                            taggedParagraphs.Add(Parms.Intro);
+                            taggedParagraphs.VoiceSplit1500();
+                            taggedParagraphs.VoiceSplitNarrator();
+                        }
                     }
                     taggedParagraphs.Add(paragraph);
                     taggedParagraphs.VoiceSplit1500();

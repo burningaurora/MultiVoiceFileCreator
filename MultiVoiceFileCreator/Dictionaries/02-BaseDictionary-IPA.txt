@@ -34,6 +34,13 @@ clientèle|<phoneme alphabet=+ipa+ ph=+klaɪ.n̩ˈtɛl+>clientèle</phoneme>
 clientele|<phoneme alphabet=+ipa+ ph=+klaɪ.n̩ˈtɛl+>clientèle</phoneme>
 talon|<phoneme alphabet=+ipa+ ph=+ˈtælən+>talon</phoneme>
 Gwynedd|<phoneme alphabet=+ipa+ ph=+ˈgwɪnəð+>Gwynedd</phoneme>
-gateaus|<phoneme alphabet="ipa" ph="ɡa.toz">gateaus</phoneme>
-gateau|<phoneme alphabet="ipa" ph="ɡa.to">gateau</phoneme>
-chaos|<phoneme alphabet="ipa" ph="ˈkeɪɒs">chaos</phoneme>
+gateaus|<phoneme alphabet=+ipa+ ph=+ɡa.toz+>gateaus</phoneme>
+gateau|<phoneme alphabet=+ipa+ ph=+ɡa.to+>gateau</phoneme>
+chaos|<phoneme alphabet=+ipa+ ph=+ˈkeɪɒs+>chaos</phoneme>
+bemusedly|<phoneme alphabet=+ipa+ ph=+bɪˈmjuːzdli+>bemusedly</phoneme>
+cayenne|<phoneme alphabet=+ipa+ ph=+kaɪˈɛn+>cayenne</phoneme>
+Phineas|<phoneme alphabet=+ipa+ ph=+fɪniːəs+>Phineas</phoneme>
+contently|<phoneme alphabet=+ipa+ ph=+kənˈtɛntli+>contently</phoneme>
+h-how|<phoneme alphabet=+ipa+ ph=+hʌ+>H</phoneme>; how
+Reg|<phoneme alphabet=+ipa+ ph=+rɛʤ+>Reg</phoneme>
+n-no|<phoneme alphabet=+ipa+ ph=+nə+>N</phoneme>-No

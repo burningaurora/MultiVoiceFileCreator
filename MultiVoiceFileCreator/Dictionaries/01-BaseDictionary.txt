@@ -511,6 +511,7 @@ A-a-around|ah ah around
 devasting|devastating
 Imperius|Impeerius
 Imperiused|Impeeriused
+Imperious|Impeerius
 bitchy|bitchie
 Bathilda|Buhthilda
 tearoom|tea-room
