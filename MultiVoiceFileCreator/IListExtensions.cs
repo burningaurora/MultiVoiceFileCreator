@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -51,5 +50,16 @@ public static class IListExtensions
         if (ignoreCase)
             return strList.FirstOrDefault(f => f.Compare(containsStr));
         return strList.FirstOrDefault(f => f == containsStr);
+    }
+
+    /// <summary>
+    /// Returns if a string is within a list of strings
+    /// </summary>
+    /// <param name="obj"></param>
+    /// <param name="list"></param>
+    /// <returns></returns>
+    public static bool InList(this object obj, params object[] list)
+    {
+        return list.Contains(obj);
     }
 }

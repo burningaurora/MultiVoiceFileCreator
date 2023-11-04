@@ -7,6 +7,18 @@
     "Proper Introductions": {
       "commandName": "Project",
       "commandLineArgs": "ProperIntroductions"
+    },
+    "Chained to the Moon": {
+      "commandName": "Project",
+      "commandLineArgs": "ChainedToTheMoon"
+    },
+    "A Moral Obligation": {
+      "commandName": "Project",
+      "commandLineArgs": "AMoralObligation"
+    },
+    "Vaincre": {
+      "commandName": "Project",
+      "commandLineArgs": "Vaincre"
     }
   }
 }

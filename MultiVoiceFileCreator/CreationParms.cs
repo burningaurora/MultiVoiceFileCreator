@@ -92,6 +92,9 @@ namespace MultiVoiceFileCreator
             Chapter = !string.IsNullOrEmpty(chapter) ? Convert.ToInt32(chapter) : (int?)null;
             LastChapter = !string.IsNullOrWhiteSpace(lastChapter) && lastChapter.ToBoolean();
             Method = Enum.Parse<Method>(method);
+
+            if (Method.InList(Method.Lines, Method.MultiVoice) && !File.Exists(BookFileName))
+                Method = Method.BookNLP;
         }
 
         #endregion

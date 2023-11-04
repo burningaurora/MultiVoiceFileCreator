@@ -58,9 +58,6 @@ namespace MultiVoiceFileCreator
         /// <returns></returns>
         private void GenerateReadableHTML()
         {
-            if (Parms.Method == Method.MultiVoice && !File.Exists(Parms.BookFileName))
-                Parms.Method = Method.BookNLP;
-
             var html = string.Empty;
             if (Parms.URL.Contains("http"))
             {

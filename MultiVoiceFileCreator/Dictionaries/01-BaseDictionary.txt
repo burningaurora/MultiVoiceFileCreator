@@ -582,3 +582,4 @@ umm|um
 Inferi|in-fear-e
 candelabras|kanduhlaabruhz
 candelabra|kanduhlaabruh
+itchy|itch-e

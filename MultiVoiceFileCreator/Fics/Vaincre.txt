@@ -1,0 +1,8 @@
+﻿/url=https://archiveofourown.org/downloads/31276355/Vaincre.html?updated_at=1698934514
+/baseDirectory=C:\sandbox\Epub\lumosinlove
+/includeChapterNumber=false
+/title=Vaincre
+/author=lumosinlove
+/method=Lines
+/lastChapter=false
+/chapter=19
