@@ -1,0 +1,8 @@
+﻿/url=https://archiveofourown.org/downloads/43432257/Chained%20to%20the%20Moon.html?updated_at=1696764633
+/baseDirectory=C:\sandbox\Epub\MsAlexWP
+/includeChapterNumber=false
+/title=Chained to the Moon
+/author=MsAlexWP
+/chapter=32
+/method=MultiVoice
+/lastChapter=true

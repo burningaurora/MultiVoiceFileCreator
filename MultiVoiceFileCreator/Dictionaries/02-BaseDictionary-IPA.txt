@@ -44,3 +44,8 @@ contently|<phoneme alphabet=+ipa+ ph=+kənˈtɛntli+>contently</phoneme>
 h-how|<phoneme alphabet=+ipa+ ph=+hʌ+>H</phoneme>; how
 Reg|<phoneme alphabet=+ipa+ ph=+rɛʤ+>Reg</phoneme>
 n-no|<phoneme alphabet=+ipa+ ph=+nə+>N</phoneme>-No
+breath|<phoneme alphabet=+ipa+ ph=+brɛθ+>breath</phoneme>
+Eden|<phoneme alphabet=+ipa+ ph=+ɪ́jdən+>Eden</phoneme>
+Themis|<phoneme alphabet=+ipa+ ph=+θiːmɪs+>Themis</phoneme>
+lunged|<phoneme alphabet=+ipa+ ph=+lʌnʤd+>lunged</phoneme>
+Eleutheria|<phoneme alphabet=+ipa+ ph=+e.leɸ.θeˈri.a+>Eleutheria</phoneme>

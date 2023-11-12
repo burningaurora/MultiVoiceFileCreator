@@ -1,0 +1,6 @@
+﻿/url=https://archiveofourown.org/downloads/41042052/A%20Lesson%20in%20Fidelity.html?updated_at=1685838507
+/baseDirectory=C:\sandbox\Epub\Quietlemonhush
+/includeChapterNumber=false
+/title=A Lesson in Fidelity
+/author=Quietlemonhush
+/method=MultiVoice
