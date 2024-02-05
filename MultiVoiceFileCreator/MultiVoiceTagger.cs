@@ -196,6 +196,8 @@ namespace MultiVoiceFileCreator
                 var quoteLine = bookNLPLine.Split("\t");
                 CharId = quoteLine[^2];
                 Name = characters.ContainsKey(Convert.ToInt32(CharId)) ? characters[Convert.ToInt32(CharId)] : "Unknown";
+                if (Name.Compare("Moony"))
+                    Name = "Remus";
                 Line = quoteLine.Last().ToPunctuationlessString().ToUpper();
             }
         }

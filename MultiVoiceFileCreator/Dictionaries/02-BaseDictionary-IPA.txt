@@ -1,5 +1,4 @@
 ﻿Remus|<phoneme alphabet=+ipa+ ph=+rɪ́jməs+>Remus</phoneme>
-er|<phoneme alphabet=+ipa+ ph=+əː+>Er</phoneme>
 err|<phoneme alphabet=+ipa+ ph=+əː+>Err</phoneme>
 Euphemia|<phoneme alphabet=+ipa+ ph=+juːˈfiːmɪ.ə+>yoofeemee'uh</phoneme>
 Euphemia's|<phoneme alphabet=+ipa+ ph=+juːˈfiːmɪ.əz+>yoofeemee'uh's</phoneme>
@@ -18,10 +17,6 @@ confliction|<phoneme alphabet=+ipa+ ph=+kənflɪktʃʌn+>confliction</phoneme>
 conflictions|<phoneme alphabet=+ipa+ ph=+kənflɪktʃʌnz+>conflictions</phoneme>
 agape|<phoneme alphabet=+ipa+ ph=+əˈɡeɪp+>agape</phoneme>
 accio|<phoneme alphabet=+ipa+ ph=+ˈak.ki.oː+>Accio</phoneme>
-shh|<phoneme alphabet=+ipa+ ph=+ʃ̩ːːːː+> shh </phoneme>
-shhh|<phoneme alphabet=+ipa+ ph=+ʃ̩ːːːː+> shhh </phoneme>
-ssh|<phoneme alphabet=+ipa+ ph=+ʃ̩ːːːː+> shhh </phoneme>
-ssssh|<phoneme alphabet=+ipa+ ph=+ʃ̩ːːːː+> shhh </phoneme>
 askew|<phoneme alphabet = +ipa+ ph=+əsˈkjuː+>askew</phoneme>
 cursed|<phoneme alphabet = +ipa+ ph=+kɜːst+>cursed</phoneme>
 Nagini|<phoneme alphabet=+ipa+ ph=+naˈɡini+>Nagini</phoneme>
@@ -49,3 +44,12 @@ Eden|<phoneme alphabet=+ipa+ ph=+ɪ́jdən+>Eden</phoneme>
 Themis|<phoneme alphabet=+ipa+ ph=+θiːmɪs+>Themis</phoneme>
 lunged|<phoneme alphabet=+ipa+ ph=+lʌnʤd+>lunged</phoneme>
 Eleutheria|<phoneme alphabet=+ipa+ ph=+e.leɸ.θeˈri.a+>Eleutheria</phoneme>
+\'Mione|<phoneme alphabet=+ipa+ ph=+maɪəni+>Mione</phoneme>
+Mione|<phoneme alphabet=+ipa+ ph=+maɪəni+>Mione</phoneme>
+s-s-so|<phoneme alphabet=+ipa+ ph=+sə+>s</phoneme>-<phoneme alphabet=+ipa+ ph=+sə+>s</phoneme>-so
+s-so|<phoneme alphabet=+ipa+ ph=+sə+>s</phoneme>-so
+oof|<phoneme alphabet=+ipa+ ph=+uːf+>Oof</phoneme>
+Ngh|<phoneme alphabet=+ipa+ ph=+ŋʱ+>Ngh</phoneme>
+auror|<phoneme alphabet=+ipa+ ph=+ɔːə+>auror</phoneme>
+aurors|<phoneme alphabet=+ipa+ ph=+ɔːəz+>aurors</phoneme>
+owlery|<phoneme alphabet=+ipa+ ph=+aʊləri+>owlery</phoneme>

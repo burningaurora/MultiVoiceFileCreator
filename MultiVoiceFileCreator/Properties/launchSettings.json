@@ -19,6 +19,14 @@
     "Vaincre": {
       "commandName": "Project",
       "commandLineArgs": "Vaincre"
+    },
+    "HCAU": {
+      "commandName": "Project",
+      "commandLineArgs": "HCAU"
+    },
+    "One Shots": {
+      "commandName": "Project",
+      "commandLineArgs": "OneShots"
     }
   }
 }

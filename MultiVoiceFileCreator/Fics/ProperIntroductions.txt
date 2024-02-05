@@ -1,7 +1,7 @@
-﻿/url=https://archiveofourown.org/downloads/27213442/Proper%20Introductions.html?updated_at=1687121756
-/baseDirectory=C:\sandbox\Epub\Engie_Ivy
+﻿/url=C:\sandbox\Epub\Fuck It, It’s Fine\FuckItItsFine.html
+/baseDirectory=C:\sandbox\Epub\Fuck It, It’s Fine
 /includeChapterNumber=false
-/title=Proper Introductions
-/author=Engie_Ivy
-/method=Lines
-/lastChapter=false
+/title=Fuck It, It’s Fine
+/author=R33sesPieces
+/method=SingleVoice
+/lastChapter=true

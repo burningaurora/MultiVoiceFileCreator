@@ -16,6 +16,7 @@
     public static Dictionary<string, string> ReplacementCharacters =
         new()
         {
+            { "—", "; " },
             { "h2", "p" },
             { "<p>Chapter Summary</p>", "" },
             { "<p>Chapter Notes</p>", "" },
@@ -83,7 +84,8 @@
             { " ' ", " " },
             { "...?", "?" },
             { ",;", ";" },
-            { "...", "... " }
+            { "...", "... " },
+            { "... !","!"}
         };
 
     public static readonly Dictionary<string, string> CasedCommonReplacements =

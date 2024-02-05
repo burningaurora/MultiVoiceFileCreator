@@ -42,12 +42,11 @@ s'alright|sahlright
 m'alright|em-alright
 s'been|issbeen
 Gr-|Grah-
-mmph|hmmph
-mmmph|hmmph
-hmp|hmmph
+mmph|hm
+mmmph|hm
+hmp|hm
 &|&amp;
-hm'|hmm
-hm|hmm
+hm'|hm
 p-please|pahplease
 tutted|tuhted
 cruciatus|cruciaatus
@@ -122,7 +121,7 @@ Finite|fin-e-tay
 absently|absintly
 he reed|he red
 lacciomente|lacki-o-ment-e
-grindylow|grindilow
+grindylows|grindilow's
 Grindly-O's|grindilows
 more wound up|more wownd up
 stairs wound round|stairs wownd round
@@ -278,14 +277,12 @@ toothed|tooth'd
 Scrimgour|Scrim-jor
 Scrimgeour|Scrim-jor
 Scrimgeours|Scrim-jors
-Mione|Myohnee
 flu-ing|fluing
 Toujours Pur|Toujour Pure
 outwit|out-wit
 coz|cuz
 Nev\.'|Nev'.
 Nev\.|Nev'
-\'Mione|Myohnee
 d'ya|do ya
 wont|won't
 felicis|feeleesus
@@ -316,7 +313,6 @@ nestle|nestl
 \?\.|?
 Volemort|Voldemort
 H-hi|Huh-hi
-S-So|suhh-so
 G-good|Guhh-good
 G\.\.\.Good|Guhh-good
 H-Happy|Huh-Happy
@@ -418,7 +414,7 @@ inexpertly|in-expertly
 croon-y|croony
 Maximus'|Maximus's
 S'the|it's the
-d-don't|duh-don't
+d-don't|doe-don't
 Honeyduke's|Honey Duke's
 knut|nut
 reprised|reprized
@@ -556,6 +552,7 @@ Remys|Remus
 comer|commer
 Quietlemonhush|Quiet lemon hush
 thewholeofthemoon|the whole of the moon
+TherestheSnitch|There's the Snitch
 Madam Maxim|Madam Maxime
 merpeople|Myrrh people
 gillyweed|gillie weed
@@ -592,3 +589,31 @@ ropey|rope-e
 frothed|froth'd
 intimate|intimut
 highboy|high-boy
+naturedly|nature'd-lee
+murlap|murtlap
+Scourigfy|Scourgify
+Tonks'|Tonks's
+dragonish|dragon-ish
+learned|learn'd
+Umbridge's|Umbridges
+Grubby-Plank|Grubbly-Plank
+WrappedUp|Wrapped Up
+emeryhall|emery hall
+unsubtly|unsubtle-lee
+Ukelele|Ukulele
+Siirus|Sirius
+Remnus|Remus
+aqua_myosotis|aqua myosotis
+yeh|yeah
+oww|ow
+Flinch-Fletchley|Finch-Fletchley
+ole|ol'
+succulent_nurturer|succulent nurturer
+er|erm
+shh|hush
+shhh|hush
+ssh|hush
+ssssh|hush
+blimey|Blime-e
+Trelawny|Trelawney
+Violet_Thistle|Violet Thistle

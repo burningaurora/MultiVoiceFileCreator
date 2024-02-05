@@ -1,0 +1,7 @@
+﻿/url=https://archiveofourown.org/downloads/37077256/Harry_Potter_and_the.html?updated_at=1659896596
+/baseDirectory=C:\sandbox\Epub\thewholeofthemoon\Harry Potter and the Two-Way Mirror
+/includeChapterNumber=false
+/title=Harry Potter and the Two-Way Mirror
+/author=thewholeofthemoon
+/method=MultiVoice
+/lastChapter=true

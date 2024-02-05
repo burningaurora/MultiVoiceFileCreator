@@ -1,0 +1,8 @@
+﻿/url=https://archiveofourown.org/downloads/50555698/Dignity_be_Damned.html?updated_at=1707063383
+/baseDirectory=C:\sandbox\Epub\Dignity be Damned
+/includeChapterNumber=true
+/title=Dignity be Damned
+/author=Violet_Thistle
+/method=MultiVoice
+/lastChapter=true
+/chapter=2

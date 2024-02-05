@@ -1,5 +1,4 @@
-﻿er|uh
-err|uh
+﻿err|uh
 Euphemia|yoofeemee'uh
 Euphemia's|yoofeemee'uh's
 mm|Mmhmm
@@ -17,10 +16,6 @@ confliction|con-flic-shun
 conflictions|con-flic-shuns
 agape|uh-gape
 accio|och-e-o
-shh|hush
-shhh|hush
-ssh|hush
-ssssh|hush
 askew|uhskew
 cursed|curse'd
 Nagini|Nuhgheenie
@@ -32,3 +27,10 @@ ngn|ung
 clientèle|client-tell
 clientele|client-tell
 talon|tal'en
+\'Mione|Myohnee
+Mione|Myohnee
+S-So|suhh-so
+S-s-So|suhh-suhh-so
+Auror|orr'er
+Aurors|orr'ers
+owlery|owl-er-re

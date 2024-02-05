@@ -1,8 +1,7 @@
-﻿/url=https://archiveofourown.org/downloads/43432257/Chained%20to%20the%20Moon.html?updated_at=1696764633
-/baseDirectory=C:\sandbox\Epub\MsAlexWP
+﻿/url=https://archiveofourown.org/downloads/43346899/To%20All%20a%20Good%20Night.html?updated_at=1696764635
+/baseDirectory=C:\sandbox\Epub\MsAlexWP\ToAllAGoodNight
 /includeChapterNumber=false
-/title=Chained to the Moon
+/title=To All A Good Night
 /author=MsAlexWP
-/chapter=32
 /method=MultiVoice
 /lastChapter=true

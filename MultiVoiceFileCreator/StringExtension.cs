@@ -176,11 +176,21 @@ public static class StringExtension
     /// <returns></returns>
     public static string AddPTags(this string str)
     {
-        if (str.Contains(Constants.VOICE_SPLIT))
-            return str;
-        if (char.IsPunctuation(str.ToCharArray().First()) && str.Substring(1, 1) == " ")
-            str = str.Substring(2);
-        return $"<p>{str.SafeTrim()}</p>";
+        try
+        {
+            if (str.Contains(Constants.VOICE_SPLIT))
+                return str;
+            if (char.IsPunctuation(str.ToCharArray().First()) && str.Length == 1)
+                return string.Empty;
+            if (char.IsPunctuation(str.ToCharArray().First()) && str.Substring(1, 1) == " ")
+                str = str.Substring(2);
+            return $"<p>{str.SafeTrim()}</p>";
+        }
+        catch (Exception ex)
+        {
+            var test = ex;
+            throw;
+        }
     }
 
     /// <summary>
@@ -205,6 +215,7 @@ public static class StringExtension
             return str;
         ReadDictionaries(generationMethod).ToList().ForEach(f => str = str.ReplaceWholeWord(f.Key, f.Value, RegexOptions.IgnoreCase));
         str = str.Replace("<phoneme alphabet=+ipa+ ph=+rɪ́jməs+>Remus</phoneme>'s", "Remus's");
+        str = str.Replace("<phoneme alphabet=+ipa+ ph=+rɪ́jməs+>Remus</phoneme>'ll", "Remus'll");
         str = str.Replace("<phoneme alphabet=\"ipa\" ph=\"naˈɡini\">Nagini</phoneme>'s", "<phoneme alphabet=\"ipa\" ph=\"naˈɡiniz\">Naginis</phoneme>");
         str = Regex.Replace(str, @"\s+", " ");
         str = str.Replace(" -'", "'");
