@@ -1,0 +1,8 @@
+﻿/url=https://archiveofourown.org/downloads/60923644/Dear_Mr_Black.html?updated_at=1733519460
+/baseDirectory=C:\sandbox\Podfics\Tagging\MsAlexWP\Dear Mr Black
+/includeChapterNumber=true
+/title=Dear Mr Black
+/author=MsAlexWP
+/method=MultiVoice
+/skipDictionary=true
+/chapter=4

@@ -1,7 +1,0 @@
-﻿/url=https://archiveofourown.org/downloads/43346899/To%20All%20a%20Good%20Night.html?updated_at=1696764635
-/baseDirectory=C:\sandbox\Epub\MsAlexWP\ToAllAGoodNight
-/includeChapterNumber=false
-/title=To All A Good Night
-/author=MsAlexWP
-/method=MultiVoice
-/lastChapter=true

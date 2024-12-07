@@ -10,7 +10,8 @@
         Lines,
         Edge,
         SingleVoice,
-        BookNLP
+        BookNLP,
+        Dictionary
     }
 
     public static Dictionary<string, string> ReplacementCharacters =

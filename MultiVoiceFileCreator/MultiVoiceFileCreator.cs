@@ -58,6 +58,13 @@ namespace MultiVoiceFileCreator
         /// <returns></returns>
         private void GenerateReadableHTML()
         {
+            if (Parms.Method == Method.Dictionary)
+            {
+                var taggedHtml = new StreamReader(Parms.URL).ReadToEnd();
+                var taggedLines = File.ReadAllLines(Parms.URL).ToList();
+                WriteFile(taggedHtml, taggedLines);
+                return;
+            }
             var html = string.Empty;
             if (Parms.URL.Contains("http"))
             {
@@ -65,7 +72,14 @@ namespace MultiVoiceFileCreator
                 html = client.GetStringAsync(Parms.URL).GetAwaiter().GetResult();
             }
             else
+            {
                 html = new StreamReader(Parms.URL).ReadToEnd();
+                if (!html.Contains("<p>"))
+                {
+                    var test = html.Split("\r\n");
+                    html = $"<p>{string.Join("</p><p>", test)}</p>";
+                }
+            }
 
             // Decode characters
             html = System.Web.HttpUtility.HtmlDecode(html);
@@ -117,7 +131,7 @@ namespace MultiVoiceFileCreator
             doc.DocumentNode.SelectNodes("//img").RemoveNodes();
 
             // Remove any formatting found in headers and footers
-            doc.DocumentNode.SelectNodes("//blockquote").RemoveNodes();
+            doc.DocumentNode.SelectNodes("//blockquote[contains(@class, 'userstuff')]").RemoveNodes();
 
             // Remove any formatting found in headers and footers
             doc.DocumentNode.SelectNodes("//style").RemoveNodes();
@@ -167,11 +181,14 @@ namespace MultiVoiceFileCreator
         /// Write the html to a file
         /// </summary>
         /// <param name="html"></param>
-        private void WriteFile(string html)
+        private void WriteFile(string html, List<string> paragraphs = null)
         {
-            html = html.HTMLCleanUp();
-            html = html.Replace("</p><p>", "|||").Replace("<p>", "").Replace("</p>", "");
-            var paragraphs = html.Split("|||").ToList();
+            if (!paragraphs.SafeAny())
+            {
+                html = html.HTMLCleanUp();
+                html = html.Replace("</p><p>", "|||").Replace("<p>", "").Replace("</p>", "");
+                paragraphs = html.Split("|||").ToList();
+            }
             var finalParagraphs = new List<string>();
 
             if (Parms.Method == Method.MultiVoice || Parms.Method == Method.Lines)
@@ -181,7 +198,7 @@ namespace MultiVoiceFileCreator
                 return;
             }
 
-            if (Parms.Method != Method.Edge && Parms.Method != Method.BookNLP)
+            if (Parms.Method != Method.Edge && Parms.Method != Method.BookNLP && Parms.Method != Method.Dictionary)
             {
                 var i = 0;
                 var output = new List<string>();
@@ -208,7 +225,7 @@ namespace MultiVoiceFileCreator
                         else
                         {
                             if (!output.Last().Contains(VOICE_SPLIT))
-                                output.VoiceSplit1200();
+                                output.VoiceSplit1000();
                             output.VoiceSplitNarrator();
                             output.Add(item);
                         }
@@ -219,6 +236,10 @@ namespace MultiVoiceFileCreator
 
                 output.VoiceSplit2500();
                 output.ForEach(f => finalParagraphs.Add(f.DictionaryReplacer(Parms.Method).AddPTags()));
+            }
+            else if (Parms.Method == Method.Dictionary)
+            {
+                finalParagraphs = paragraphs.Select(f => f.DictionaryReplacer(Parms.Method).AddPTags()).ToList();
             }
 
             // Do replacements for pronunciation

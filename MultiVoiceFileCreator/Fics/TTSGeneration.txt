@@ -1,0 +1,8 @@
+﻿/url=C:\sandbox\Podfics\Tagging\MsAlexWP\Dear Mr Black\Chapter_03\Tagged_Chapter_03.html
+/baseDirectory=C:\sandbox\Podfics\Tagging\MsAlexWP\Dear Mr Black\Chapter_03\
+/includeChapterNumber=false
+/title=Chapter_03
+/author=MsAlexWP
+/method=Dictionary
+/skipDictionary=false
+/lastChapter=false

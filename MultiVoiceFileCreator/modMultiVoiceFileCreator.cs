@@ -1,12 +1,11 @@
-﻿using static Constants;
-
-namespace MultiVoiceFileCreator
+﻿namespace MultiVoiceFileCreator
 {
     public class modMultiVoiceFileCreator
     {
         #region Properties
 
         private static CreationParms _creationParms;
+        private static bool _all;
 
         #endregion
 
@@ -17,8 +16,22 @@ namespace MultiVoiceFileCreator
             ParseArgs(args.FirstOrDefault());
 
             // Run the App
-            var MultiVoiceFileCreator = new MultiVoiceFileCreator(_creationParms);
-            MultiVoiceFileCreator.Execute();
+            if (_all)
+            {
+                var chapters = _creationParms.Chapter.GetValueOrDefault(0);
+                for (int i = 1; i <= chapters; i++)
+                {
+                    _creationParms.Chapter = i;
+                    _creationParms.LastChapter = i >= chapters;
+                    var MultiVoiceFileCreator = new MultiVoiceFileCreator(_creationParms);
+                    MultiVoiceFileCreator.Execute();
+                }
+            }
+            else
+            {
+                var MultiVoiceFileCreator = new MultiVoiceFileCreator(_creationParms);
+                MultiVoiceFileCreator.Execute();
+            }
         }
 
         #endregion
@@ -29,14 +42,16 @@ namespace MultiVoiceFileCreator
         {
             var args = File.ReadAllLines(Path.Combine(@"C:\sandbox\MultiVoiceFileCreator\MultiVoiceFileCreator\Fics", $"{txtFile}.txt"));
             _creationParms = new CreationParms(
-                args.Where(f => f.StartsWithString("/url=")).First().Replace("/url=", string.Empty),
-                args.Where(f => f.StartsWithString("/baseDirectory=")).FirstOrDefault()?.Replace("/baseDirectory=", string.Empty)?.Replace("\"", ""),
-                args.Where(f => f.StartsWithString("/includeChapterNumber=")).FirstOrDefault()?.Replace("/includeChapterNumber=", string.Empty),
-                args.Where(f => f.StartsWithString("/title=")).FirstOrDefault()?.Replace("/title=", string.Empty),
-                args.Where(f => f.StartsWithString("/author=")).FirstOrDefault()?.Replace("/author=", string.Empty),
-                args.Where(f => f.StartsWithString("/chapter=")).FirstOrDefault()?.Replace("/chapter=", string.Empty),
-                args.Where(f => f.StartsWithString("/lastChapter=")).FirstOrDefault()?.Replace("/lastChapter=", string.Empty),
-                args.Where(f => f.StartsWithString("/method=")).FirstOrDefault()?.Replace("/method=", string.Empty) ?? nameof(Method.Lines));
+                args.GetParm("url"),
+                args.GetParm("baseDirectory"),
+                args.GetParm("includeChapterNumber"),
+                args.GetParm("title"),
+                args.GetParm("author"),
+                args.GetParm("chapter"),
+                args.GetParm("lastChapter"),
+                args.GetParm("method"),
+                args.GetParm("skipDictionary"));
+            _all = args.Contains("/all");
         }
 
         #endregion

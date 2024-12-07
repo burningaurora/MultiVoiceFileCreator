@@ -1,43 +1,25 @@
-﻿Remus|<phoneme alphabet=+ipa+ ph=+rɪ́jməs+>Remus</phoneme>
-err|<phoneme alphabet=+ipa+ ph=+əː+>Err</phoneme>
-Euphemia|<phoneme alphabet=+ipa+ ph=+juːˈfiːmɪ.ə+>yoofeemee'uh</phoneme>
-Euphemia's|<phoneme alphabet=+ipa+ ph=+juːˈfiːmɪ.əz+>yoofeemee'uh's</phoneme>
-mm|<phoneme alphabet=+ipa+ ph=+m̩ːːː+>mm</phoneme>
-mmm|<phoneme alphabet=+ipa+ ph=+m̩ːːː+>mm</phoneme>
-mmmm|<phoneme alphabet=+ipa+ ph=+m̩ːːː+>mm</phoneme>
-mmmmm|<phoneme alphabet=+ipa+ ph=+m̩ːːː+>mm</phoneme>
-mhm|<phoneme alphabet=+ipa+ ph=+m̩ˈ+>mhm</phoneme>hmm
-M-Mmhmm|<phoneme alphabet=+ipa+ ph=+m̩ˈ+>mhm</phoneme>hmm
-mhms|<phoneme alphabet=+ipa+ ph=+m̩ˈ+>mhm</phoneme>hmm's
-Mmmhmmm|<phoneme alphabet=+ipa+ ph=+m̩ˈ+>mhm</phoneme>hmm
-Mmh|<phoneme alphabet=+ipa+ ph=+m̩ˈ+>mhm</phoneme>hmm
-Mmhm|<phoneme alphabet=+ipa+ ph=+m̩ˈ+>mhm</phoneme>hmm
-sake|<phoneme alphabet = +ipa+ ph=+ˈseɪk+>sake</phoneme>
+﻿err|<phoneme alphabet=+ipa+ ph=+əː+>Err</phoneme>
 confliction|<phoneme alphabet=+ipa+ ph=+kənflɪktʃʌn+>confliction</phoneme>
 conflictions|<phoneme alphabet=+ipa+ ph=+kənflɪktʃʌnz+>conflictions</phoneme>
 agape|<phoneme alphabet=+ipa+ ph=+əˈɡeɪp+>agape</phoneme>
-accio|<phoneme alphabet=+ipa+ ph=+ˈak.ki.oː+>Accio</phoneme>
 askew|<phoneme alphabet = +ipa+ ph=+əsˈkjuː+>askew</phoneme>
 cursed|<phoneme alphabet = +ipa+ ph=+kɜːst+>cursed</phoneme>
+Nagini's|<phoneme alphabet=+ipa+ ph=+naˈɡiniz+>Naginis</phoneme>
 Nagini|<phoneme alphabet=+ipa+ ph=+naˈɡini+>Nagini</phoneme>
 swilled|<phoneme alphabet=+ipa+ ph=+swɪld+> swilled </phoneme>
 Rennervate|<phoneme alphabet = +ipa+ ph=+ɹinɚɹveɪt+>Rennervate</phoneme>
 uncleanliness|<phoneme alphabet = +ipa+ ph=+ˌʌnˈklɛnlɪnəs+>uncleanliness</phoneme>
 defense|<phoneme alphabet = +ipa+ ph=+dɪˈfɛns+>defense</phoneme>
 ngn|<phoneme alphabet=+ipa+ ph=+ɡn+>ngn</phoneme>
-clientèle|<phoneme alphabet=+ipa+ ph=+klaɪ.n̩ˈtɛl+>clientèle</phoneme>
-clientele|<phoneme alphabet=+ipa+ ph=+klaɪ.n̩ˈtɛl+>clientèle</phoneme>
 talon|<phoneme alphabet=+ipa+ ph=+ˈtælən+>talon</phoneme>
 Gwynedd|<phoneme alphabet=+ipa+ ph=+ˈgwɪnəð+>Gwynedd</phoneme>
 gateaus|<phoneme alphabet=+ipa+ ph=+ɡa.toz+>gateaus</phoneme>
 gateau|<phoneme alphabet=+ipa+ ph=+ɡa.to+>gateau</phoneme>
-chaos|<phoneme alphabet=+ipa+ ph=+ˈkeɪɒs+>chaos</phoneme>
 bemusedly|<phoneme alphabet=+ipa+ ph=+bɪˈmjuːzdli+>bemusedly</phoneme>
 cayenne|<phoneme alphabet=+ipa+ ph=+kaɪˈɛn+>cayenne</phoneme>
 Phineas|<phoneme alphabet=+ipa+ ph=+fɪniːəs+>Phineas</phoneme>
 contently|<phoneme alphabet=+ipa+ ph=+kənˈtɛntli+>contently</phoneme>
 h-how|<phoneme alphabet=+ipa+ ph=+hʌ+>H</phoneme>; how
-Reg|<phoneme alphabet=+ipa+ ph=+rɛʤ+>Reg</phoneme>
 n-no|<phoneme alphabet=+ipa+ ph=+nə+>N</phoneme>-No
 breath|<phoneme alphabet=+ipa+ ph=+brɛθ+>breath</phoneme>
 Eden|<phoneme alphabet=+ipa+ ph=+ɪ́jdən+>Eden</phoneme>
@@ -50,6 +32,9 @@ s-s-so|<phoneme alphabet=+ipa+ ph=+sə+>s</phoneme>-<phoneme alphabet=+ipa+ ph=+
 s-so|<phoneme alphabet=+ipa+ ph=+sə+>s</phoneme>-so
 oof|<phoneme alphabet=+ipa+ ph=+uːf+>Oof</phoneme>
 Ngh|<phoneme alphabet=+ipa+ ph=+ŋʱ+>Ngh</phoneme>
-auror|<phoneme alphabet=+ipa+ ph=+ɔːə+>auror</phoneme>
-aurors|<phoneme alphabet=+ipa+ ph=+ɔːəz+>aurors</phoneme>
 owlery|<phoneme alphabet=+ipa+ ph=+aʊləri+>owlery</phoneme>
+Az's|<phoneme alphabet=+ipa+ ph=+ˈæzɪz+>Az's</phoneme>
+Bathilda|<phoneme alphabet=+ipa+ ph=+ˈbʌˈtɪldə+>Bathilda</phoneme>
+Gabrielle|<phoneme alphabet=+ipa+ ph=+ɡa.bʁi.jɛl+>Gabrielle</phoneme>
+catastrophize|<phoneme alphabet=+ipa+ ph=+kəˈtæstɹəfaɪz+>catastrophize</phoneme>
+songing|<phoneme alphabet=+ipa+ ph=+ˈsɒŋɪŋ+>songing</phoneme>

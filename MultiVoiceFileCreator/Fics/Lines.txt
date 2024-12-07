@@ -1,0 +1,10 @@
+﻿/url=https://archiveofourown.org/downloads/51897520/Ill_Be_Home_for.html?updated_at=1727364014
+/baseDirectory=C:\sandbox\Podfics\Tagging\MsAlexWP\Ill Be Home for Christmas
+/includeChapterNumber=true
+/title=Ill Be Home for Christmas
+/author=MsAlexWP
+/method=Lines
+/skipDictionary=true
+/lastChapter=false
+/all
+/chapter=8

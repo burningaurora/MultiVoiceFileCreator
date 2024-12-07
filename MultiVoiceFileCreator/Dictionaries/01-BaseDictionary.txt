@@ -16,8 +16,10 @@ Siruis|Sirius
 Moly|Molly
 Dursleys'|Dersley's
 Dursleys|Dersley's
+iris'|iris's
 Dursely's|Dersley's
 Dursley|Dersley
+Seamus'|Seamus's
 storey|story
 godbrother|god-brother
 mud-blood|mudblood
@@ -26,6 +28,8 @@ pureblood|pure blood
 Grims|Grimms
 Grayback|Greyback
 Veritaserum|veritahserum
+Vertiaserum|veritahserum
+Veritaserium|veritahserum
 wolfsbane|Wolfsbane
 glamor|glamour
 renervate|Renervate
@@ -48,7 +52,6 @@ hmp|hm
 &|&amp;
 hm'|hm
 p-please|pahplease
-tutted|tuhted
 cruciatus|cruciaatus
 expelliarmus|expellieommous
 o-one|wahone
@@ -58,6 +61,7 @@ Remus'|Remus's
 Sirius'|Sirius's
 James'|James's
 Bones'|Bones's
+Fawkes'|Fawkes's
 Hogwarts'|Hogwarts's
 Regulus'|Regulus's
 Lils'|Lils's
@@ -166,7 +170,7 @@ St Mungo's|Saint Mungo's
 St. Mungo's|Saint Mungo's
 St. Mungos|Saint Mungo's
 the hue not one|the hue; not one
-grimaces|grimace's
+grimaces|grimmaces
 Eons|E-ons
 Thames|Temmms
 dunno|don't know
@@ -177,7 +181,6 @@ What d'you|What do you
 guiding back through|guided back through
 woon'd tight|wownd tight
 winds|whindes
-tutting|tuhting
 to<strike>Sirius's</strike>his|to Sirius's. No his
 R33sesPieces|Reeses Pieces
 Padfoot's|Pad-foot's
@@ -296,7 +299,6 @@ Y-You|Ya- you
 wrongfooted|wrong footed
 mistress'|mistress's
 H-Harry|Huh Harry
-Snivellus|Snivelus
 T-That|That
 H-horcruxes|Huh horcruxes
 Voldies|Voldie's
@@ -509,13 +511,11 @@ Imperius|Impeerius
 Imperiused|Impeeriused
 Imperious|Impeerius
 bitchy|bitchie
-Bathilda|Buhthilda
 tearoom|tea-room
 sooty|sootty
 Alohmora|alohomora
 alohomora|alohamora
 WOOHOOO|woowho
-legged|leged
 what'll|what will
 N nothing|Nuh nothing
 Lives here, actually|Livs here, actually
@@ -587,7 +587,6 @@ prophesy|prophecy
 lightening|lightning
 ropey|rope-e
 frothed|froth'd
-intimate|intimut
 highboy|high-boy
 naturedly|nature'd-lee
 murlap|murtlap
@@ -614,6 +613,65 @@ shh|hush
 shhh|hush
 ssh|hush
 ssssh|hush
-blimey|Blime-e
 Trelawny|Trelawney
 Violet_Thistle|Violet Thistle
+imagineacoolusername|imagine a cool username
+so've|so have
+Olympe|o'lamp
+Az|As
+R\.A\.B|R A B
+Auror|orr'er
+Aurors|orr'ers
+Deluminiator|Deluminator
+Lovegood|love-good
+overage|over age
+domme|dom
+koala-ed|koala'd
+precome|pre-come
+Snugglebug|Snuggle-bug
+Biteybug|Bitey-bug
+babybug|baby-bug
+cuddlebug|cuddle-bug
+Honeybug|Honey-bug
+Reg|Rej
+Fleamont|Flee-mont
+24\/7|twenty four seven
+grimacing|grim-es-ing
+hm|hmm
+lichen|lykin
+macabre|macab
+maj|madge
+no-maj|no-madge
+secondhand|second-hand
+Cleansweep|Clean-sweep
+Flutterby|Flutter-by
+hols|hollz
+Padfoot|Pad-foot
+reverie|rehvree
+divet|div-it
+mm|Mhrmrm
+mmm|Mhrmrm
+mmmm|Mhrmrm
+mmmmm|Mhrmrm
+mhm|Mhrmrm
+M-Mmhmm|Mhrmrm
+mhms|Mhrmrm's
+Mmmhmmm|Mhrmrm
+Mmh|Mhrmrm
+Mmhm|Mhrmrm
+breathy|breth'y
+arsecheek|arse cheek
+arsecheeks|arse cheeks
+stinging|sting'ing
+sake|sayk
+dishevelled|dishevel'd
+abba|ab-ba
+earlobe|ear-lobe
+accio|ahkieo
+breathily|breath'ily
+unabashed|unabash'd
+grimace|grimmus
+Snivellus|Snivilus
+prefect|pre-fect
+maman|mahmohne
+hissed|hiss'd

@@ -38,7 +38,7 @@ public static class Extensions
         strings.Add("fin-e-tay");
         strings.Add($"{Constants.VOICE_SPLIT} 1500");
         strings.Add($"{Constants.VOICE_SPLIT_NARRATOR}");
-        strings.Add("Thanks for listening to this text to speech podfic composed by Burning Aurora");
+        strings.Add("Thanks for listening to this text to speech podfic composed by Burning Aurora, Kaleana, and Flower-Hawk");
     }
 
     #region Voice Splits
@@ -54,9 +54,6 @@ public static class Extensions
 
     public static void VoiceSplit1000(this List<string> strings) =>
         strings.Add($"{VOICE_SPLIT} 1000");
-
-    public static void VoiceSplit1200(this List<string> strings) =>
-        strings.Add($"{VOICE_SPLIT} 1200");
 
     public static void VoiceSplit1500(this List<string> strings) =>
         strings.Add($"{VOICE_SPLIT} 1500");

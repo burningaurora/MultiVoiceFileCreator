@@ -98,7 +98,7 @@ namespace MultiVoiceFileCreator
                         if (quote != null)
                         {
                             if (!taggedParagraphs.Last().Contains(Constants.VOICE_SPLIT))
-                                taggedParagraphs.VoiceSplit1200();
+                                taggedParagraphs.VoiceSplit1000();
                             taggedParagraphs.Add($"{Constants.VOICE_SPLIT} {quote.Name}");
                             taggedParagraphs.Add(line);
 
@@ -110,7 +110,7 @@ namespace MultiVoiceFileCreator
                         else
                         {
                             if (!taggedParagraphs.Last().Contains(Constants.VOICE_SPLIT))
-                                taggedParagraphs.VoiceSplit1200();
+                                taggedParagraphs.VoiceSplit1000();
                             taggedParagraphs.VoiceSplitNarrator();
                             taggedParagraphs.Add(line);
                         }
@@ -126,7 +126,7 @@ namespace MultiVoiceFileCreator
                     else
                     {
                         if (!taggedParagraphs.Last().Contains(Constants.VOICE_SPLIT))
-                            taggedParagraphs.VoiceSplit1200();
+                            taggedParagraphs.VoiceSplit1000();
                         taggedParagraphs.VoiceSplitNarrator();
                         taggedParagraphs.Add(paragraph);
                     }
@@ -139,10 +139,17 @@ namespace MultiVoiceFileCreator
             taggedParagraphs.VoiceSplit2500();
 
             var finalParagraphs = new List<string>();
-            taggedParagraphs.ForEach(f => finalParagraphs.Add(f.DictionaryReplacer(Parms.Method).AddPTags()));
+            if (!Parms.SkipDictionary)
+                taggedParagraphs.ForEach(f => finalParagraphs.Add(f.DictionaryReplacer(Parms.Method).AddPTags()));
+            else
+                taggedParagraphs.ForEach(f => finalParagraphs.Add(f.AddPTags()));
 
             if (Parms.Method == Constants.Method.MultiVoice)
+            {
+                finalParagraphs = finalParagraphs.Select(f => f.Replace("<p><p>", "<p>")).ToList();
+                finalParagraphs = finalParagraphs.Select(f => f.Replace("</p></p>", "</p>")).ToList();
                 File.WriteAllText(Parms.HTMLFileName, string.Join("\r\n", finalParagraphs));
+            }
             else if (Parms.Method == Constants.Method.Lines)
                 GenerateCharacterFiles(batchedQuotes);
         }

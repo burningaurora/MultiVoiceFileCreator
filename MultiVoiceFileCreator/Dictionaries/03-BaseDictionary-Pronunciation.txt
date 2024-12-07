@@ -1,21 +1,8 @@
 ﻿err|uh
-Euphemia|yoofeemee'uh
-Euphemia's|yoofeemee'uh's
-mm|Mmhmm
-mmm|Mmhmm
-mmmm|Mmhmm
-mmmmm|Mmhmm
-mhm|Mmhmm
-M-Mmhmm|Mmhmm
-mhms|Mmhmms
-Mmmhmmm|Mmhmm
-Mmh|Mmhmm
-Mmhm|Mmhmm
 sake|sayke
 confliction|con-flic-shun
 conflictions|con-flic-shuns
 agape|uh-gape
-accio|och-e-o
 askew|uhskew
 cursed|curse'd
 Nagini|Nuhgheenie
@@ -24,8 +11,6 @@ Rennervate|Renervate
 uncleanliness|unclenliness
 defense|dafense
 ngn|ung
-clientèle|client-tell
-clientele|client-tell
 talon|tal'en
 \'Mione|Myohnee
 Mione|Myohnee
@@ -34,3 +19,4 @@ S-s-So|suhh-suhh-so
 Auror|orr'er
 Aurors|orr'ers
 owlery|owl-er-re
+Bathilda|Buhthilda

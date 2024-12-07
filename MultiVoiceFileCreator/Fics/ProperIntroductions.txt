@@ -1,7 +1,0 @@
-﻿/url=C:\sandbox\Epub\Fuck It, It’s Fine\FuckItItsFine.html
-/baseDirectory=C:\sandbox\Epub\Fuck It, It’s Fine
-/includeChapterNumber=false
-/title=Fuck It, It’s Fine
-/author=R33sesPieces
-/method=SingleVoice
-/lastChapter=true

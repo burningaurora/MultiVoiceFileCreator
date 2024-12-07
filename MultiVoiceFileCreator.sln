@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiVoiceFileCreator", "MultiVoiceFileCreator\MultiVoiceFileCreator.csproj", "{FFDF27CC-1755-44E4-A757-C3766AD20362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiVoiceFileCreator", "MultiVoiceFileCreator\MultiVoiceFileCreator.csproj", "{FFDF27CC-1755-44E4-A757-C3766AD20362}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurningAurora.SharedUtils", "..\BurningAurora.SharedUtils\BurningAurora.SharedUtils\BurningAurora.SharedUtils.csproj", "{1851AAB2-5EA8-4576-B974-175333C82DFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FFDF27CC-1755-44E4-A757-C3766AD20362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFDF27CC-1755-44E4-A757-C3766AD20362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFDF27CC-1755-44E4-A757-C3766AD20362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1851AAB2-5EA8-4576-B974-175333C82DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1851AAB2-5EA8-4576-B974-175333C82DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1851AAB2-5EA8-4576-B974-175333C82DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1851AAB2-5EA8-4576-B974-175333C82DFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

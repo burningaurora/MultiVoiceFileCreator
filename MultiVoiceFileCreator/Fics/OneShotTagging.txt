@@ -1,0 +1,8 @@
+﻿/url=C:\sandbox\Podfics\Tagging\MsAlexWP\Dear Mr Black\Chapter_02\dear Mr black chapter 2.txt
+/baseDirectory=C:\sandbox\Podfics\Tagging\MsAlexWP\Dear Mr Black\Chapter_02\
+/includeChapterNumber=false
+/title=Chapter_02
+/author=MsAlexWP
+/method=MultiVoice
+/lastChapter=false
+/skipDictionary=true

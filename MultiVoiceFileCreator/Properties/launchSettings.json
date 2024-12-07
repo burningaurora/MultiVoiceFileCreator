@@ -4,29 +4,21 @@
       "commandName": "WSL2",
       "distributionName": ""
     },
-    "Proper Introductions": {
+    "OneShotTagging": {
       "commandName": "Project",
-      "commandLineArgs": "ProperIntroductions"
+      "commandLineArgs": "OneShotTagging"
     },
-    "Chained to the Moon": {
+    "MultiChapterTagging": {
       "commandName": "Project",
-      "commandLineArgs": "ChainedToTheMoon"
+      "commandLineArgs": "MultiChapterTagging"
     },
-    "A Moral Obligation": {
+    "TTSGeneration": {
       "commandName": "Project",
-      "commandLineArgs": "AMoralObligation"
+      "commandLineArgs": "TTSGeneration"
     },
-    "Vaincre": {
+    "Lines": {
       "commandName": "Project",
-      "commandLineArgs": "Vaincre"
-    },
-    "HCAU": {
-      "commandName": "Project",
-      "commandLineArgs": "HCAU"
-    },
-    "One Shots": {
-      "commandName": "Project",
-      "commandLineArgs": "OneShots"
+      "commandLineArgs": "Lines"
     }
   }
 }

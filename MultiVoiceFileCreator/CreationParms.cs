@@ -20,6 +20,7 @@ namespace MultiVoiceFileCreator
         public int? Chapter { get; set; }
         public bool LastChapter { get; set; }
         public Method Method { get; set; }
+        public bool SkipDictionary { get; set; }
         public string OutputDirectory
         {
             get
@@ -58,7 +59,7 @@ namespace MultiVoiceFileCreator
         }
         public string BookFileName => Path.Combine(OutputDirectory.Replace(Characters, ""), $"{FileName}.book");
         public string QuotesFileName => Path.Combine(OutputDirectory.Replace(Characters, ""), $"{FileName}.quotes");
-        public string Intro => $"This is the multi-voice text to speech podfic reading of, {Title} by {Author}, Composed by Burning Aurora.";
+        public string Intro => $"This is the multi-voice text to speech podfic reading of, {Title} by {Author}, Composed by Burning Aurora, Kaleana, and Flower-Hawk";
 
         #endregion
 
@@ -82,7 +83,8 @@ namespace MultiVoiceFileCreator
             string author,
             string chapter,
             string lastChapter,
-            string method)
+            string method,
+            string skipDictionary)
         {
             URL = url;
             BaseDirectory = baseDirectory;
@@ -92,6 +94,7 @@ namespace MultiVoiceFileCreator
             Chapter = !string.IsNullOrEmpty(chapter) ? Convert.ToInt32(chapter) : (int?)null;
             LastChapter = !string.IsNullOrWhiteSpace(lastChapter) && lastChapter.ToBoolean();
             Method = Enum.Parse<Method>(method);
+            SkipDictionary = !string.IsNullOrWhiteSpace(skipDictionary) && skipDictionary.ToBoolean();
 
             if (Method.InList(Method.Lines, Method.MultiVoice) && !File.Exists(BookFileName))
                 Method = Method.BookNLP;
